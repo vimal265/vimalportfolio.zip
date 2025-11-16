@@ -1,0 +1,10 @@
+<?php
+$uname = $_GET['Uname'];
+$pass = $_GET['pass'];
+
+if ($uname == "vishu j" && $pass == "1234") {
+    echo "<h2>Login Successful! Welcome, $uname</h2>";
+} else {
+    echo "<h2>Invalid Username or Password</h2>";
+}
+?>
